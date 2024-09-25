@@ -20,4 +20,4 @@ jobs:
         aws-region: eu-north-1
 
     - name: Deploy static site to S3 bucket
-      run: aws s3 cp ./public/ s3://examplebuckets3
+      run: aws s3 cp ./index.html s3://examplebuckets3
